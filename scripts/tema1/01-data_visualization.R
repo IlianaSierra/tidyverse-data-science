@@ -52,7 +52,7 @@ ggplot(data = mpg) +
 ggplot(data = mpg) +
   geom_point(mapping = aes(x = displ, y = hwy, shape = class))
 
-#Elección manual de estéticas
+#Elección manual de estéticas (esttica global)
 ggplot(data = mpg) + 
   geom_point(mapping = aes(x = displ, y = hwy), color = "red")
 # color = nombre del color en formato string
