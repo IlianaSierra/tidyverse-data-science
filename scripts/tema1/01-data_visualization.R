@@ -14,16 +14,16 @@ library(tidyverse)
 #La relación consumo / tamaño es lineal? Es no lineal? Es exponencial?
 #Es positiva? Es negativa?
 
+#Invocar la vista
 View(mpg)
-?mpg #help(mpg)
+?mpg #help(mpg) #Para saber que significa cada variable (cualquiera d elas dos)
 # displ: tamaño del motor del coche en litros
 # hwy: número de millas recorridas en autopista por galón de combustible (3.785411784 litros)
 
 ggplot(data = mpg)
 
 mpg %>% ggplot()
-
-
+ 
 ggplot(data = mpg) + 
   geom_point(mapping = aes(x = displ, y = hwy))
 
