@@ -1,12 +1,14 @@
 #Data Visualization - 11 de Mayo de 2018
 library(tidyverse)
 
-#tidyverse 1.2.1 ──
-#✔ ggplot2 2.2.1     ✔ purrr   0.2.4
-#✔ tibble  1.4.2     ✔ dplyr   0.7.4
-#✔ tidyr   0.8.0     ✔ stringr 1.3.1
-#✔ readr   1.1.1     ✔ forcats 0.3.0
+#tidyverse 1.3.1 ──
+#✔ dplyr     1.1.4     ✔ readr     2.1.5
+#✔ forcats   1.0.0     ✔ stringr   1.5.1
+#✔ ggplot2   3.5.2     ✔ tibble    3.2.1
+#✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+#✔ purrr     1.0.4 
 
+#**PREGUNTAS DEL ANALISTA**
 #Los coches con motor más grande consumen más combustible 
 #que los coches con motor más pequeño.
 #La relación consumo / tamaño es lineal? Es no lineal? Es exponencial?
