@@ -180,7 +180,7 @@ ggplot(data = mpg, mapping = aes(x=displ, y = hwy) ) +
              shape = 23, col = "white", stroke = 2) 
 
 
-## 222Ejemplo del dataset de diamantes
+## Ejemplo del dataset de diamantes
 View(diamonds)
 
 ggplot(data = diamonds) + 
